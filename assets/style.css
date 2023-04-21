@@ -23,6 +23,12 @@ header{
     align-items: center;
 }
 
+.select_mode{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 #play{
     padding: 0.5rem;
     border-radius: 10px;

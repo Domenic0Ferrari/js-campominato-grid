@@ -49,3 +49,9 @@ function complete(){
 	    cell.addEventListener('click', colorCell);
     }
 }
+
+// BONUS
+
+// Selezionare la difficoltà nel select
+// Collegare la difficoltà selezionata al bottone "play"
+// Stampare la griglia richiesta a seconda della difficoltà scelta
