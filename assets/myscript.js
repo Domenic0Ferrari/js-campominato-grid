@@ -29,8 +29,9 @@ myButton.addEventListener('click', complete);
 /* DEFINIRE LE FUNZIONI */
 
 function createGrid(numCells, eleContainer) {
+    eleContainer.innerHTML = "";
 	for (let i = 1; i <= numCells; i++) {
-		eleContainer.innerHTML += `<div class="cell"> ${i} </div>`
+		eleContainer.innerHTML += `<div class="cell"> ${i} </div>`;
 	}
 }
 
@@ -43,8 +44,8 @@ function complete(){
     const eleGrid = document.querySelector('.grid');
     createGrid(100, eleGrid);
     const listCells = document.querySelectorAll('.cell');
-for (let i = 0; i < listCells.length; i++) {
-	const cell = listCells[i];
-	cell.addEventListener('click', colorCell);
-}
+    for (let i = 0; i < listCells.length; i++) {
+	    const cell = listCells[i];
+	    cell.addEventListener('click', colorCell);
+    }
 }
