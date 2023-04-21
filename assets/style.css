@@ -34,6 +34,24 @@ main{
     width: 100%;
     height: calc(100vh - 160px);
     background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+	width: calc(100% / 10);
+	height: calc(100% / 10); 
+	border: 1px solid black;
+	cursor: pointer;
 }
 
 /* footer */
