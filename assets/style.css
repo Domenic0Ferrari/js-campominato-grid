@@ -46,16 +46,30 @@ main{
     align-items: center;
 }
 
-.grid{
+.grid_easy{
     width: 500px;
     height: 500px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.cell {
-	width: calc(100% / 10);
-	height: calc(100% / 10); 
+.grid_medium{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid_hard{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+	width: 50px;
+	height: 50px; 
 	border: 1px solid black;
 	cursor: pointer;
     display: flex;
@@ -64,7 +78,7 @@ main{
     background-color: brown;
 }
 
-.clicked {
+.clicked{
 	background-color: aqua;
 }
 
